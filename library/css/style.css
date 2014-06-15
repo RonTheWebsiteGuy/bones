@@ -1886,7 +1886,7 @@ you can add resource intensive styles.
         border-top: 0;
         position: absolute;
         overflow: hidden;
-        visibility: hidden;
+        display:none;
         z-index: 8999;
         /* highlight sub-menu current page */ }
         .nav li ul.sub-menu li,
@@ -1909,7 +1909,7 @@ you can add resource intensive styles.
       .nav li:hover ul {
         top: auto;
         overflow: visible;
-        visibility: visible; }
+        display:block; }
 
   /* end .nav */
   /*********************
